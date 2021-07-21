@@ -17,7 +17,7 @@ Sails.js/Waterline adapter for MongoDB.
 Install from NPM.
 
 ```bash
-$ npm install sails-mongo --save
+$ npm install @patientfi/sails-mongo --save
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ After installing this adapter as a dependency of your Sails app, make this parti
 module.exports.connections = {
 
   localMongoDb: {
-    adapter: 'sails-mongo',
+    adapter: '@patientfi/sails-mongo',
     host: 'localhost', // defaults to `localhost` if omitted
     port: 27017, // defaults to 27017 if omitted
     user: 'username_here', // or omit if not relevant
